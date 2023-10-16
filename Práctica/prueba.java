@@ -1,3 +1,4 @@
+package Práctica;
 class MiPrimerPrograma{
 
     public static void main(String [] args){
