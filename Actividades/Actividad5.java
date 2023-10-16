@@ -5,7 +5,7 @@ public class Actividad5 {
     public static void main (String[]args){
         Scanner sc = new Scanner (System.in);
 
-        System.out.print("Introduce un número del 1 al 100");
+        System.out.print("Introduce un número del 1 al 100, por favor: ");
         int num = sc.nextInt();
 
         if (num >= 1 && num <= 100) {
