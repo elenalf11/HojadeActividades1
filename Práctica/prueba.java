@@ -2,8 +2,45 @@ package Práctica;
 class MiPrimerPrograma{
 
     public static void main(String [] args){
-        System.out.print("Hola, mundo");
+       
+        
+        /////////////////////////////////////////////////
+        int i =2;
+
+        switch(i){
+            case 0:
+                System.out.print("i es cero");
+            break;
+            case 3:
+                System.out.print("i es tres");
+            break;
+        
+
+            default:
+
+
+        }
+
+///////////////////////////////////////////////////////////////////////////////
+        
+
+
+/////////////////////////////////////////////////////////////////////////////////////777
+        for (int num=1; num<=100 ; num++){
+            System.out.print(num + ", ");
+        }
+/////////////////////////////////////////////////////////////////////////////////////////////
+        int j = 0;
+        while (j < 3 ){
+            System.out.print(j + ", ");
+
+        }
+
+/////////////////////////////////////////////////////////////77
+        do{
+
+        } while (j < 3);
+
+        }
 
     }
-
-}
