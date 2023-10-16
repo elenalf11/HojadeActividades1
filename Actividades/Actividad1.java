@@ -7,8 +7,7 @@ public class Actividad1 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Ingrese su calificación (0-100), por favor: ");
-		int nota;
-		nota=sc.nextInt();
+		int nota = sc.nextInt();
 		
 		if (nota>=60){
 			System.out.print("Usted está aprobado, enhorabuena ");
