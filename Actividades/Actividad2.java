@@ -7,15 +7,16 @@ public class Actividad2 {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Introduzca un número entero, por favor: ");
-        int num = sc.nextInt();
+        double num = sc.nextDouble();
          
 
         if (num >=0){
             System.out.print("El número es positivo");
         }
 
-        else {System.out.print("El número es negativo");};
+        else  {System.out.print("El número es negativo");};
         
+
         sc.close();
 
         }
