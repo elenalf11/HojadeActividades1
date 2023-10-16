@@ -8,7 +8,11 @@ public class Actividad3 {
         Scanner sc = new Scanner(System.in);
         int num;
         num = sc.nextInt();
-        if (num)
+        if (num % 2 == 0 ){
+            System.out.print("El número es par");
+        }
+        else {System.out.print("El número es impar");};
+        sc.close();
 
 
     }
