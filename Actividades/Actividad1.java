@@ -14,6 +14,7 @@ public class Actividad1 {
 		
 		}
 		else {System.out.print("Usted está suspenso, lo siento");}
+        sc.close();
 
 	}
 
