@@ -6,10 +6,10 @@ public class Actividad1{
         Scanner sc = new Scanner (System.in);
 
         System.out.print("Introduzca un número, por favor: ");
-        int num1 = sc.nextInt();
+        int N = sc.nextInt();
 
-        for(int num= 1;  num<= num1; num1-- ){
-             System.out.print(num1 + ", ");
+        for(int num= 1;  num<= N; N-- ){
+             System.out.print(N + ", ");
 
         }
        
