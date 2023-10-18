@@ -7,18 +7,23 @@ public class Actividad2 {
 
         System.out.print("Ingrese un número, por favor: ");
         int N = sc.nextInt();
+        
 
-        for(int num=1; num<=N; N--){
-            System.out.print(N + ", ");
-        if (N % 2 == 0){
-                int pares = N%2;
-                System.out.print(pares);
+        for(int num=1; num<=N; num++){
+            if (num%2==0){
+                System.out.print(num + ", ");
 
-                
             }
-             
-        }
 
+            
+            
+            
+        
+   
+        }
+        
+        
+        sc.close();
     }
     
 }
