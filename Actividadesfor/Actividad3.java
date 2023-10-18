@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Actividad3 {
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
-
         int unoaldiez = 1;
 
         System.out.print("Introduzca un número, por favor: ");
