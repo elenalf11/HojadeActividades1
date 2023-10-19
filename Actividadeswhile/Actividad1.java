@@ -9,9 +9,11 @@ public class Actividad1 {
         
         System.out.print("Ingrese un número, por favor: ");
 
-        while (1<numero)
+        while (1<=numero){
+             System.out.println(numero -- );
+        }
 
-        System.out.println(numero --);
+       
          
         sc.close();
 
