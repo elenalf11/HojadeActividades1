@@ -12,6 +12,7 @@ public class Actividad4 {
         }
         else{System.out.println("Esto es un número negativo, esto no va a funcionar");}
 
+            sc.close();
     }
     
 }
