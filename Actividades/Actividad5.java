@@ -12,11 +12,15 @@ public class Actividad5 {
             System.out.print("El número está dentro del rango");
 
         } else {System.out.print("El número no está dentro del rango");}
-
+        
+        
         sc.close();
+        }
+
+        
 
         
     }
     
     
-}
+
