@@ -7,26 +7,26 @@ class MiPrimerPrograma{
         /////////////////////////////////////////////////
        // int i =2;
 
-      //  switch(i){
-         //   case 0:
-               // System.out.print("i es cero");
-          //  break;
-            //case 3:
-                //System.out.print("i es tres");
-          //  break;
+        switch(5){
+          case 0:
+             System.out.print("i es cero");
+           break;
+            case 3:
+                System.out.print("i es tres");
+            break;
         
 
-           // default:
+             default:
 
 
-       // }
+        }
 
 ///////////////////////////////////////////////////////////////////////////////
         
 
 
 /////////////////////////////////////////////////////////////////////////////////////777
-       // for (int num=1; num<=100 ; num++){
+        for (int num=1; num<=100 ; num++){
           //  System.out.print(num + ", ");
        // }
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,11 +37,11 @@ class MiPrimerPrograma{
         }
 
 /////////////////////////////////////////////////////////////77
-      //  do{
+        do{
 
-       // } while (j < 3);
+        } while (j < 3);
 
-      //  }
+        }
 
     }
 }
