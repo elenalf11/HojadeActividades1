@@ -10,25 +10,23 @@ public class Actividad4 {
         int numeroAleatorio = rand.nextInt(100) + 1;
         System.out.println("Dime un número del 1 al 100 y te diré si has acertado el número en el que estoy pensando");
         int numero = sc.nextInt();
-        int intentos = 3;
-       
-        while (intentos == 3){
-         
+        int intentos = 1;
+
+        while(intentos >= 0 ){
+
             if (numero == numeroAleatorio){
-                System.out.println("¡Enhorabuena! Has acertado el número");
-            }
-            else if (numero<numeroAleatorio) {
-                System.out.println("El número que buscas es un poco más alto, ¡Sigue intentándolo!");
-            }
-            else if (numero > numeroAleatorio){
-                System.out.print("El número que buscas es un poco más bajo, ¡Sigue intentándolo!");
-            }
-        
-    }
 
-    
-        sc.close();
+                System.out.println("¡Enhorabuena! Has acertado el número");      
+                
+            }    else if (numero<numeroAleatorio){
+                    System.out.println("Sigue intentándolo, pista: es más alto");
+                }       else if (numero>numeroAleatorio){
+                        System.out.println("Sigue intenándolo, pista: es más bajo");
+                        }  
+             sc.close();
 
+        }  
+       
     }
     
 }
