@@ -8,8 +8,8 @@ public class Actividad1{
         System.out.print("Introduzca un número, por favor: ");
         int N = sc.nextInt();
 
-        for(int num= 1;  num<= N; N-- ){
-             System.out.print(N + ", ");
+        for(int i= 1;  i<= N; i++ ){
+             System.out.print(i + ", ");
 
         }
        
