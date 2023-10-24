@@ -6,13 +6,14 @@ public class Actividad4 {
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
         Random rand = new Random ();
-       
         int numeroAleatorio = rand.nextInt(100) + 1;
-        System.out.println("Dime un número del 1 al 100 y te diré si has acertado el número en el que estoy pensando");
-        int numero = sc.nextInt();
-        int intentos = 1;
+        int intentos = 0;
 
-        while(intentos >= 0 ){
+        while(true){
+            System.out.println("Dime un número del 1 al 100 y te diré si has acertado el número en el que estoy pensando");
+            int numero = sc.nextInt();
+            intentos ++;
+
 
             if (numero == numeroAleatorio){
 

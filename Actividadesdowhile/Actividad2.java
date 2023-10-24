@@ -12,7 +12,7 @@ public class Actividad2 {
 
         do{
            suma += 1;
-           numero +=2;
+           numero += 2;
 
         } while (numero <= tunumero);
         System.out.println("La suma de los números pares es: " + suma);
