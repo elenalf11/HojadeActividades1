@@ -8,10 +8,9 @@ public class Actividad5 {
         System.out.print("Introduce un número, por favor: ");
         int numero = sc.nextInt();
         sc.close();
-        int inicio = 1;
         
-        for (; inicio<=numero; numero-- ){
-            System.out.println(numero);
+        for (int i = 1; i >=numero; i-- ){
+            System.out.println(i);
         }
 
     }
