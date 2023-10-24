@@ -6,11 +6,13 @@ public class Actividad1 {
         
         Scanner sc = new Scanner (System.in);
         int numero = sc.nextInt();
+        int i = 1;
         
         System.out.print("Ingrese un número, por favor: ");
 
-        while (1<=numero){
-             System.out.println(numero -- );
+        while (i <= numero){
+             System.out.println(i);
+             i ++;
         }
 
        

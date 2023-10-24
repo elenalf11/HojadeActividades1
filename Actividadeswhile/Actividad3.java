@@ -3,28 +3,27 @@ import java.util.Scanner;
 
 public class Actividad3 {
     public static void main (String [] args){
+        System.out.println("Introduzca un número entero, por favor: ");
         Scanner sc = new Scanner (System.in);
         int numero = sc.nextInt();
-        int cifra = 0;
+        int contador = 0;
+        int numeroAbsoluto = Math.abs(numero);
 
-        System.out.println("Introduzca un número entero, por favor: ");
-       
-        if (numero%10>=0){
-            System.out.println("Es un número entero , te diré cuántas cifras tiene.");
+        // Manejamos el caso especial de 0
+        if (numero == 0){
+            contador = 1;
             
             
-        }
-        else {System.out.println("No es un número entero.");}
+        } else {
+            while(numeroAbsoluto > 0 ){
+            numeroAbsoluto /= 10;
+            contador ++;
 
-        while(numero>0 ){
-            numero = numero/10;
-            cifra++;
-
-            
-            System.out.println("El número tiene " + cifra + " dígito/s.");   
-        }
+               
+            }
+        System.out.println("El número tiene " + contador + " dígito/s.");
         sc.close();
-    }
+        }
 
-    
+}
 }

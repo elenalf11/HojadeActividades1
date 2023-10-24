@@ -4,11 +4,11 @@ package Actividadeswhile;
 
 public class Actividad2 {
     public static void main (String [] args){
-        int inicio = 0;
-        int ultimo = 10;
+        int i = 10;
 
-        while(inicio<ultimo){
-            System.out.println(ultimo --);
+        while(i > 0){
+            System.out.println(i);
+            i --;
         }
 
 
